@@ -1,6 +1,11 @@
-# Website
+# Stremio Guide
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+> [!NOTE]  
+> This project is a work in progress. Join our [community Discord server](https://discord.gg/zNRf6YF) if you would like to contribute early on.
+
+An unofficial and community-maintained guide to Stremio.
+
+This project is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
 ### Installation
 
@@ -26,16 +31,4 @@ This command generates static content into the `build` directory and can be serv
 
 ### Deployment
 
-Using SSH:
-
-```
-$ USE_SSH=true npm run deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> npm run deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+Create a PR to the `main` branch. Once the PR has been reviewed and merged by our core collaborators, the changes will be automatically deployed to GitHub Pages.
